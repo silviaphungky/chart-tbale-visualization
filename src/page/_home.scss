@@ -1,0 +1,17 @@
+.home__card {
+ margin-top: -2rem;
+ border-radius: 2rem !important; 
+ background-color: #F2f6FB;
+}
+
+.home__row-wrapper {
+  padding: 0.5rem 3rem;
+}
+
+//mobile
+@media only screen and (max-width: 768px) {
+  .home__row-wrapper {
+    padding: 0 0rem;
+  }
+}
+
