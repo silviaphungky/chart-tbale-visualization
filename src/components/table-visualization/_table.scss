@@ -1,0 +1,19 @@
+.table__wrapper {
+  width: 100%;
+  overflow-X: auto;
+  overflow-Y: hidden; 
+}
+
+tr:nth-child(even) {
+  background-color: aliceblue;
+}
+
+th {
+  background-color: #64c5eb;
+}
+
+.border--blue{
+  border-bottom: 1px solid #64c5eb;
+  border-top: 1px solid #64c5eb;
+  
+}
