@@ -1,0 +1,30 @@
+.graph__col {
+  margin-top: 0;
+}
+
+.graph__type {
+  background-color: aliceblue;
+  margin: 0 3rem;
+  padding: 1rem;
+}
+
+.graph__canvas {
+  padding: 0 1.5rem;
+}
+
+//mobile
+@media only screen and (max-width: 768px) {
+  .graph__col {
+    margin-top: 2rem;
+  }
+
+  .graph__type {
+    margin: 0 1rem;
+    padding: 0.5rem;
+  }
+
+  .graph__canvas {
+    padding: 0.5rem;
+  }
+  
+}
